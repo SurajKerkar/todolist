@@ -17,7 +17,7 @@ app.use(express.static("public"));
 mongoose.set('strictQuery', true);
 
 //Connect Mongoose
-mongoose.connect('mongodb+srv://surajkerkar4:sura123@cluster0.9oipe8z.mongodb.net/todolistDB');
+mongoose.connect('mongodb+srv://surajkerkar4:suraj123@cluster0.9oipe8z.mongodb.net/todolistDB');
 
 
 // mongodb://127.0.0.1:27017/todolistDB
